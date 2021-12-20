@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 * {
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
@@ -6,6 +10,12 @@
 body {
     background-color: #2B2B2B;
     color: #444;
+    font-family: 'Roboto';
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a{
@@ -21,86 +31,71 @@ a:focus {
 }
 
 p {
-    padding: 0px;
-    margin: 0 0 30px 0;
-    font-size: 25px;
-}
+    margin: 10px 0;
+  }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 400;
-    margin: 0 0 20px 0;
-    padding: 0;
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
 }
 
-/* Menu */
+img {
+    width: 100%;
+}
 
-#header {
-    height: 50px;
-    z-index: 997;
-    padding: 20px 0;
+
+/* Menu */
+.navbar {
     background-color: #161616;
+    height: 110px;
     box-shadow: 0px 0px 30px  rgba(255, 255, 255, 0.3);
 }
 
-#header .logo-top{
-    padding: 0px;
-    padding-left: 30px;
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
 }
 
-.container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.menu-flex {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-around;
 }
 
-div .logo-top {
-    width: 90px;
-    height: auto;
+.menu-item1{
+    order: 3;
 }
 
-.menu-container {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: relative;
-    bottom: 70px;
-    left: 100px;
+.menu-item2{
+    order: 2;
 }
 
-.menu-container ul{
-    width: 600px;
-    padding-left: 200px;
+.menu-item3 {
+    order: 1;
 }
 
-.menu-container ul li{
-    position: relative;
-    display: inline-block;
+.logo {
+    width: 100px;
+    height: 100px;
 }
 
-.menu-container a{
-    display: block;
-    position: relative;
-    padding: 10px 15px;
+.menu-item4 {
+    order: 4;
 }
 
-table{
-    color: white;
-    padding: 60px;
-    font-size: 30px;
+.menu-item5 {
+    order: 5;
 }
 
-footer{
-    padding: 30px;
-    background-color: #161616;
-}
-
-footer img{
+.menu-item6{
     width: 30px;
-    padding-left: 500px;
+    height: 30px;
 }
