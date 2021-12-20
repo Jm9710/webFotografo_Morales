@@ -1,0 +1,195 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #2B2B2B;
+    color: #444;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+    color: #007bff;
+    text-decoration: none;
+    outline: none;
+}
+
+p {
+    padding: 0px;
+    margin: 0 0 30px 0;
+    font-size: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+/* Menu */
+
+#header {
+    height: 50px;
+    z-index: 997;
+    padding: 20px 0;
+    background-color: #161616;
+    box-shadow: 0px 0px 30px  rgba(255, 255, 255, 0.3);
+}
+
+#header .logo-top{
+    padding: 0px;
+    padding-left: 30px;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div .logo-top {
+    width: 90px;
+    height: auto;
+}
+
+.menu-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+}
+
+.menu-container ul{
+    width: 600px;
+    padding-left: 200px;
+}
+
+.menu-container ul li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-container a{
+    display: block;
+    position: relative;
+    padding: 10px 15px;
+}
+
+.fotoInicio {
+    width: auto;
+    height: 600px;
+    padding: 30px 50px;
+    margin: 30px;    
+}
+
+.sobreMi{
+    padding: 60px;
+    background-color: #171010;
+}
+
+.sobreMi h1{
+    color: white;
+    font-size: 40px;
+}
+
+.sobreMi p{
+    color: white;
+    width: 400px;
+    margin: 0;
+    
+}
+
+.sobreMi img {
+
+    margin-top: -500px;
+    margin-left: 550px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.separador{
+    background-color: #2B2B2B;
+    margin: 80px;
+}
+
+.servicios{ 
+    padding: 60px;
+    background-color: #171010;
+}
+
+.box1{
+    color: white;
+    width: 250px;
+}
+.box2{
+    color: white;
+    width: 150px;
+    margin-top: -49px;
+    margin-left: 400px;
+}
+.box3{
+    color: white;
+    width: 250px;
+    margin-top: -49px;
+    margin-left: 700px;
+}
+
+.contacto{
+    padding: 90px;
+    background-color: #171010;
+}
+
+form {
+    position: relative;
+    padding-left: 250px;
+    width: auto;
+    font-size: 30px;   
+}
+
+form h3{
+    color: white;
+}
+
+footer{
+    padding: 30px;
+    background-color: #161616;
+}
+
+footer img{
+    width: 30px;
+    padding-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
