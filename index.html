@@ -5,46 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seba Corbo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--Barra menus-->
     <header id="header">
-        <div class="container">
-
-            <div class="logo-top">
-                <a href="index.html">
-                    <h1>LOGO</h1> <!--aca en vez de h1 va la imagen del logo-->
-                </a>
+        <div class="navbar">
+            <div class="container">
+                <nav >
+                    <ul class="menu-flex">
+                        <li class="menu-item1">
+                            <a href="index.html">
+                                <img class="logo" src="assets/img/logo.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="menu-item2">
+                            <a href="#sobreMi">SOBRE MI</a>
+                        </li>
+                        <li class="menu-item3">
+                            <a href="#servicios">SERVICIOS</a>
+                        </li>
+                        <li class="menu-item4">
+                            <a href="fotografos.html">PARA FOTOGRAFOS</a>
+                        </li>
+                        <li class="menu-item5">
+                            <a href="#contact">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-           
-            <nav class="menu-container">
-                <ul>
-                    <li>
-                        <a href="#sobreMi">SOBRE MI</a>
-                    </li>
-                    <li>
-                        <a href="#servicios">SERVICIOS</a>
-                    </li>
-                    <li>
-                        <a href="fotografos.html">PARA FOTOGRAFOS</a>
-                    </li>
-                    <li>
-                        <a href="#contact">CONTACTO</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="assets/img/instaLogo.png" alt="insta" width="30x">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </header>
     <!--termina barra menu-->
+    
     <div class="container">
         <img src="assets/img/portada.jpg" class="fotoInicio" alt="foto inicio">
     </div>
@@ -52,13 +45,14 @@
     <main id="main">
         <!--Empieza Sobre mi-->
         <section id="sobreMi" class="sobreMi">
-            <div class="container">
-                <h1>Hola, Soy Seba!</h1>
-                <p>
+            <div class="sobreMi-flex">
+                
+                <p class="sobreMi-flex1">
+                    Hola, soy Seba! <br>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint et iure totam, quasi explicabo veniam accusamus modi, ipsa, nisi magni illum ad excepturi neque architecto quaerat culpa aliquam molestiae eius! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam voluptate maiores adipisci. Corrupti consectetur eaque nobis voluptatum perspiciatis aliquam ut qui sed dicta! Ratione incidunt repudiandae unde omnis dolorem vero.
                 </p>
 
-                <img src="assets/img/sebaCorbo.jpg" alt="fotoSeba">
+                <img class="sobreMi-flex2" src="assets/img/sebaCorbo.jpg" alt="fotoSeba">
 
             </div>
         </section>
