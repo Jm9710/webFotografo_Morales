@@ -48,6 +48,7 @@ img {
 
 /* Menu */
 .navbar {
+<<<<<<< HEAD
     background-color: #161616;
     height: 110px;
     box-shadow: 0px 0px 30px  rgba(255, 255, 255, 0.3);
@@ -142,13 +143,21 @@ img {
     padding: 20px 0;
     background-color: #161616;
     
+=======
+    background-color: #161616;
+    height: 110px;
+    box-shadow: 0px 0px 30px  rgba(255, 255, 255, 0.3);
+>>>>>>> rama1
 }
 
-#header .logo-top{
-    padding: 0px;
-    padding-left: 30px;
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
 }
 
+<<<<<<< HEAD
 .container{
     padding-right: 15px;
     padding-left: 15px;
@@ -186,9 +195,60 @@ div .logo-top {
     padding: 10px 15px;
 }
 
+=======
+.menu-flex {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.menu-item1{
+    order: 3;
+}
+
+.menu-item2{
+    order: 2;
+}
+
+.menu-item3 {
+    order: 1;
+}
+
+.logo-animate__flash {
+    width: 100px;
+    height: 100px;
+    animation: flash;
+    animation-duration: 2s;
+
+}
+
+.menu-item4 {
+    order: 4;
+}
+
+.menu-item5 {
+    order: 5;
+}
+
+.menu-item6{
+    width: 30px;
+    height: 30px;
+}
+
+
+.separador{
+    background-color: #2B2B2B;
+    margin: 80px;
+}
+>>>>>>> rama1
 
 
 
+<<<<<<< HEAD
 .sobreMi h1{
     color: white;
     font-size: 40px;
@@ -241,19 +301,27 @@ div .logo-top {
 form {
     position: relative;
     padding-left: 250px;
+=======
+.sobreMi-flex{
+    display: flex;
+>>>>>>> rama1
     width: auto;
-    font-size: 30px;   
+    justify-content: center;
+    justify-content: space-around;
 }
 
-form h3{
+.sobreMi-flex1 {
+    align-self: flex-start;
+    font-size: 20px;
     color: white;
 }
 
-footer{
-    padding: 30px;
-    background-color: #161616;
+.sobreMi-flex2 {
+    align-self: flex-end;
+    width: 400px;
 }
 
+<<<<<<< HEAD
 footer img{
     width: 30px;
     padding-left: 500px;
@@ -278,3 +346,10 @@ footer img{
 
 
 
+=======
+.animate__backInUp {
+    display: inline-block;
+    animation: backInUp;
+    animation-duration: 3s; /* don't forget to set a duration! */
+  }
+>>>>>>> rama1
