@@ -82,9 +82,12 @@ img {
     order: 1;
 }
 
-.logo {
+.logo-animate__flash {
     width: 100px;
     height: 100px;
+    animation: flash;
+    animation-duration: 2s;
+
 }
 
 .menu-item4 {
@@ -129,4 +132,8 @@ img {
     width: 400px;
 }
 
-
+.animate__backInUp {
+    display: inline-block;
+    animation: backInUp;
+    animation-duration: 3s; /* don't forget to set a duration! */
+  }
