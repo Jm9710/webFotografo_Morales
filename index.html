@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seba Corbo</title>
-    <link rel="stylesheet" href="css/style.css">
+    
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -14,30 +14,26 @@
 <body>
     <!--Barra menus-->
     <header id="header">
-        <div class="navbar">
-            <div class="container">
+        <div class="container">
+            <div class="row">
                 <nav >
-                    <ul class="menu-flex">
-                        <li class="menu-item1">
+                    <ul class="nav">
+                        <li class="nav-item">
                             <a href="index.html">
-<<<<<<< HEAD
-                                <img class="logo" src="assets/img/logo.jpg" alt="">
-=======
-                                <img class="logo-animate__flash" src="assets/img/logo.jpg" alt="">
->>>>>>> rama1
+                                <img class="nav-link" src="assets/img/logo.jpg" alt="">
                             </a>
                         </li>
-                        <li class="menu-item2">
-                            <a href="#sobreMi">SOBRE MI</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobreMi">SOBRE MI</a>
                         </li>
-                        <li class="menu-item3">
-                            <a href="#servicios">SERVICIOS</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">SERVICIOS</a>
                         </li>
-                        <li class="menu-item4">
-                            <a href="fotografos.html">PARA FOTOGRAFOS</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fotografos.html">PARA FOTOGRAFOS</a>
                         </li>
-                        <li class="menu-item5">
-                            <a href="#contact">CONTACTO</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACTO</a>
                         </li>
                     </ul>
                 </nav>
@@ -52,15 +48,15 @@
     
     <main id="main">
         <!--Empieza Sobre mi-->
-        <section id="sobreMi" class="sobreMi">
-            <div class="sobreMi-flex">
+        <section id="sobreMi" class="col-lg-6 col-xs-12">
+            <div class="sobreMi">
                 
-                <p class="sobreMi-flex1">
+                <p>
                     Hola, soy Seba! <br>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint et iure totam, quasi explicabo veniam accusamus modi, ipsa, nisi magni illum ad excepturi neque architecto quaerat culpa aliquam molestiae eius! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam voluptate maiores adipisci. Corrupti consectetur eaque nobis voluptatum perspiciatis aliquam ut qui sed dicta! Ratione incidunt repudiandae unde omnis dolorem vero.
                 </p>
 
-                <img class="sobreMi-flex2" src="assets/img/sebaCorbo.jpg" alt="fotoSeba">
+                <img class="img-rounded" src="assets/img/sebaCorbo.jpg" alt="fotoSeba">
 
             </div>
         </section>
@@ -117,13 +113,17 @@
         <section id="contact" class="contacto">
             
             <div class="container">
-                <form action="" class="form">
+                <form action="#" class="form-group">
                     <h3>ENVIA TU CONSULTA</h3>
-                    <input type="text" size="30px" placeholder="Nombre y Apellido"  required> <br>
-                    <input type="email" size="30px" name="" id="" placeholder="Email" required class="email"><br>
-                    <input type="text" size="30px" placeholder="Asunto" required> <br>
-                    <textarea name="" id="" placeholder="Escribe aqui tu consulta" cols="30" rows="10" required></textarea><br>
-                    <input type="submit" value="ENVIAR CONSULTA">
+                    <label for="text">NOMBRE Y APELLIDO</label> <br>
+                    <input class="form-control" type="text" size="30px" placeholder="Nombre y Apellido"  required> <br>
+                    <label for="email">EMAIL</label> <br>
+                    <input class="form-control" type="email" size="30px" name="" id="" placeholder="Email" required class="email"><br>
+                    <label for="text">ASUNTO</label> <br>
+                    <input class="form-control" type="text" size="30px" placeholder="Asunto" required> <br>
+                    <label for="textarea">ESCRIBA SU CONSULTA</label> <br>
+                    <textarea class="form-control" name="" id="" placeholder="Escribe aqui tu consulta" cols="30" rows="10" required></textarea><br>
+                    <input class="btn btn-default" type="submit" value="ENVIAR CONSULTA">
                     
                 </form>
             </div>
@@ -131,13 +131,13 @@
         </section>
     </main>
 
-    <footer id="footer" class="footer">
-  
-        <a href="https://www.instagram.com/sebacorbo.uy/" target="_blank">
-            <img src="assets/img/instaLogo.png" alt="">
-        </a>
-
-    </footer>
+   <div class="container-fluid">
+        <footer class="row footer">
+            <div class="col-lg-4 col-xs-12">
+                <h3>REDES SOCIALES</h3>
+            </div>
+        </footer>
+   </div>
 
 </body>
 </html>
