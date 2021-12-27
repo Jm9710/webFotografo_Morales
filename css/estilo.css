@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #2B2B2B !important;
+    color: #444 !important;
+    font-family: 'Roboto';
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color: #fff !important;
+    text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+    color: #007bff !important;
+    text-decoration: none;
+    outline: none;
+}
+
+/* css index */
+
+.navbar {
+    background-color: #161616 !important;
+    box-shadow: 0px 0px 30px  rgba(255, 255, 255, 0.3);
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.nav {
+    background-color: #161616 !important;
+}
+
+/* css sobremi */
+
+.sobreMi-flex {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 60px;
+    background-color: #171010;
+}
+
+.sobreMi-flex1 {
+    align-self: flex-start;
+    font-size: 20px;
+    color: white;
+}
+
+.sobreMi-flex1 p {
+    margin: 10px 0;
+}
+
+.sobreMi-flex2 {
+    align-self: flex-end;
+    width: 400px;
+}
+
+/* css contacto */
+
+.form-group {
+    color: #fff;
+    padding: 20px;
+}
