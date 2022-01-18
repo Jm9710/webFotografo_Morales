@@ -1,0 +1,61 @@
+
+
+/* paleta colores */
+
+$color-principal: #1b1b1b;
+$color-secundario: #fff;
+$color-terciario: #262322;
+$enlaceActivo: blue;
+
+/* Fuente */
+$fuente1: 'Oswald' , sans-serif;
+
+/* tamaños imgs*/
+
+$xs: 6.25em;
+$small: 9.375em;
+$med: 12.5em;
+$large: 31.25em;
+$xl: 43.75;
+
+/* dimensiones */
+$dim-xs: 10%;
+$dim-small: 25%;
+$dim-med: 50%;
+$dim-large: 75%;
+$dim-xl: 100%;
+
+.logo {
+    width: $med;
+}
+
+.lead {
+    font-size: ($xs)-4.9;
+}
+
+main{
+    background-color: #f4f4f4;
+}
+
+.space {
+    margin-top: ($xs)-4;
+    background-color: #f4f4f4;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border: ($xs)-6.1 solid black;
+    border-radius: 5;
+    padding: ($xs)-5.5;
+    font-size: ($xs)-5.2;
+}
+
+.social a{
+    font-size: $xs;
+}
+
+.imgTam {
+    width: $dim-large;
+}
+
+
