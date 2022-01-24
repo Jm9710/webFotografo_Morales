@@ -11,27 +11,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <!-- Estilo -->
     <link rel="stylesheet" href="scss/estilo.css">
     <meta name="description" content="Pagina web de Seba Corbo, Fotografo de la ciudad de chuy">
-    <meta name="keywords" content="FOTOGRAFIA, FOTOGRAFO, URUGUAY, ROCHA, CHUY ,PODCAST, BITACORA DE LUZ, ">
+    <meta name="keywords" content="FOTOGRAFIA, FOTOGRAFO, URUGUAY, ROCHA, CHUY ,git commPODCAST, BITACORA DE LUZ, ">
 
 </head>
 <body>
     
   <header>
 
-    <section class="container">
+    <section class="d-flex justify-content-center">
 
       <div class="row no-gutters">
-          <div class="col-lg-11">
+          <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
               <a class="navbar-brand" href="#"> <img src="assets/img/papiro negro.png" class="logo" alt=""></a>
               <button class="navbar-toggler navbar-dark bg-dark " type="button btn-outline-dark" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
                     <a class="nav-link text-dark lead" href="#">Home</a>
                   </li>
@@ -42,7 +43,7 @@
                     <a class="nav-link text-dark lead" href="#servicios">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark lead" href="#">Contacto</a>
+                    <a class="nav-link text-dark lead" href="contacto.html">Contacto</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-dark lead" href="#podcast">Podcast</a>
@@ -63,33 +64,36 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 " src="assets/img/portada.png" alt="First slide">
+            <img class="d-block w-100 " src="assets/img/Carrousel 1.png" alt="First slide">
           </div>
-        <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <div class="carousel-item">
+            <img class="d-block w-100 " src="assets/img/portada3.png" alt="First slide">
+          </div>
+         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+         </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
-        </a> -->
+         </a>
       </div>
 
     </section>
 
    <div class="row no-gutters">
 
-      <section class="container space d-flex ">
+      <section class="container-fluid padding space row no-gutters ">
 
         <div class="col-lg-4 align-self-center px-5 ">
           <h1 id="sobreMi" class="text-uppercase font-weight-bold mb-4">Hola Soy Seba!</h1>
           <p class="lead mb-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos harum voluptatibus temporibus magni est quam soluta.  
           </p>
-          <a href="#" class="btn btn-primary text-dark "> Haz Click si quieres saber mas...</a>
+          <a href="#" class="btn btn-primary text-dark space "> Haz Click si quieres saber mas...</a>
         </div>
 
-        <div class="col-lg-7">
-          <img class="img-fluid" src="assets/img/sebaCorbo.png" alt="" >
+        <div class="col-lg-6">
+          <img class="img-fluid space" src="assets/img/sebaCorbo.png" alt="" >
         </div>
 
       </section>
@@ -165,7 +169,7 @@
 
   </main>
 
-  <footer class="space">
+  <footer class="container">
     <div class="container-fluid padding">
       <div class="row text-center padding">
         <div class="col-12">

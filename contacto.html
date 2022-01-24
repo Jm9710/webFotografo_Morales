@@ -1,73 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seba Corbo</title>
-
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
     <!-- Estilo -->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="scss/estilo.css">
+    <meta name="description" content="Pagina web de Seba Corbo, Fotografo de la ciudad de chuy">
+    <meta name="keywords" content="FOTOGRAFIA, FOTOGRAFO, URUGUAY, ROCHA, CHUY ,git commPODCAST, BITACORA DE LUZ, ">
 
 </head>
 <body>
-    
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link" href="sobremi.html">Sobre Mi</a>
-                <a class="nav-link" href="#servicios">Servicios</a>
-                <a class="nav-link" href="contacto.html">Contacto</a>
-                <a class="nav-link" href="#podcast">Podcast</a>
+   
+  <header>
+
+    <section class="d-flex justify-content-center">
+
+      <div class="row no-gutters">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="#"> <img src="assets/img/papiro negro.png" class="logo" alt=""></a>
+              <button class="navbar-toggler navbar-dark bg-dark " type="button btn-outline-dark" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-dark lead" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark lead" href="index.html#sobreMi">Sobre Mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark lead" href="index.html#servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark lead" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark lead" href="Podcast.html">Podcast</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+      </div>
+
+    </section>
+
+  </header>
+
+  <main>
+
+      <section class="head pb-5">
+        <div class="container py-5">
+          <div class="card">
+            <div class="card-body">
+              <h1 class="text-center py-3 ">Contacto</h1>
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="row pt-3">
+                    <div class="col-lg-1 offset-1 col-md-1 col-sm-1 col-1">
+
+                    </div>
+                    <div class="col-lg10 col-md-9 col-sm-9 col-9">
+                      <h3 class="lead font-weight-bold">Te gustaria ponerte en contacto conmigo?</h3>
+                      <p class="lead">Rellena el siguiente formualario con tu informacion y podras preguntar sobre las sesiones de fotos, los servicios que en
+                        general ofrezco, o tambien podras preguntar sobre consejos de fotografia!
+                      </p>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                  <form action="">
+                    <div class="form-row">
+                      <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                        <label>Nombre</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                        <label>Apellido</label>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+                    <label for="">Email</label>
+                    <input type="Email" class="form-control">
+                    <label>Mensaje</label>
+                    <textarea class="form-control mb-3" cols="40" rows="10"></textarea>
+                    <button class="btn btn-primary btn-light">Enviar Mensaje</button>
+                  </form>
+                </div>
               </div>
             </div>
-          </nav>
-    </header>
+          </div>
+        </div>
+      </section>
+  </main>
 
-    <main class="container">
-
-      <form action="#" class="form-group">
-        <h3>ENVIA TU CONSULTA</h3>
-        <label for="text">NOMBRE Y APELLIDO</label> <br>
-        <input class="form-control" type="text" size="30px" placeholder="Nombre y Apellido" required=""> <br>
-        <label for="email">EMAIL</label> <br>
-        <input class="form-control" type="email" size="30px" name="" id="" placeholder="Email" required=""><br>
-        <label for="text">ASUNTO</label> <br>
-        <input class="form-control" type="text" size="30px" placeholder="Asunto" required=""> <br>
-        <label for="textarea">ESCRIBA SU CONSULTA</label> <br>
-        <textarea class="form-control" name="" id="" placeholder="Escribe aqui tu consulta" cols="30" rows="10" required=""></textarea><br>
-        <input class="btn btn-default" type="submit" value="ENVIAR CONSULTA">
-        
-    </form>
-
-    </main>
-
-    <footer class="container">
-
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Instagram</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Spotify</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">YouTube</a>
-              </li>
-          </ul>
-
-    </footer>
+  <footer class="container">
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-12">
+          <h2>Redes Sociales</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="https://whatsapp.com" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        </div>
+    </div>
+  </footer>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
 </body>
 </html>

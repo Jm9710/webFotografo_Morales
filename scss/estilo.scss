@@ -34,12 +34,12 @@ $dim-xl: 100%;
 }
 
 main{
-    background-color: #f4f4f4;
+    background-color: $color-secundario;
 }
 
 .space {
     margin-top: ($xs)-4;
-    background-color: #f4f4f4;
+    background-color: $color-secundario;
 }
 
 .btn-primary {
@@ -57,5 +57,7 @@ main{
 .imgTam {
     width: $dim-large;
 }
+
+
 
 
